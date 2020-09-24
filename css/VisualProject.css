@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.Visual .visual{
+   
+    width: 100%;
+    height: 270%;
+    position: initial;
+
+}
+
+.Visual .home
+{
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    left:2%;
+    top: 7px;
+}
+
+.Visual .home:hover{
+    transform: scale(1.1);
+}
+
+

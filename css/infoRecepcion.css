@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.Oficina .oficina{
+   
+    width: 100%;
+    height: 110%;
+    position: absolute;
+
+}
+
+.Oficina .registro
+{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left:35%;
+    top: 50%;
+    z-index: 1;
+    transition: .5s ease-in-out;
+}
+
+
+.Oficina .registro:hover{
+    transform: scale(1.2);
+}
+
+
+.Oficina .informacion
+{
+    width: 16%;
+    height: 40%;
+    position: absolute;
+    left:59%;
+    top: 50%;
+    z-index: 1;
+}
+
+.Oficina .informacion:hover{
+    transform: scale(1.1);
+}
+
+.Oficina .acerca
+{
+    width: 7%;
+    height: 15%;
+    position: absolute;
+    left:15%;
+    top: 68%;
+    z-index: 1;
+}
+
+.Oficina .acerca:hover{
+    transform: scale(1.1);
+}
+
+
+.Oficina .recepcion
+{
+    width: 25%;
+    height: 20%;
+    position: absolute;
+    left:-2%;
+    top:1%;
+    z-index: 1;
+}
+
+.Oficina .recepcion:hover{
+    transform: scale(1.1);
+}

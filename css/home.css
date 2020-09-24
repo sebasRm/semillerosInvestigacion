@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 130%;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif ;
+    height: 100vh;
+   
+}
+
+.home .entrada{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+
+.home h1{
+    margin: 0;
+    padding:0;
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(67, 112, 236);
+    position: absolute;
+    top: 50%;
+}
+
+
+.home .universidad
+{
+    margin: 0;
+    padding:0;
+    width: 8%;
+    height: 17%;
+    position: relative;
+    background-attachment: fixed;
+    left:1%;
+    top: 180px;
+    resize: both;
+}
+
+.home .empresa
+{
+    margin: 0;
+    padding:0;
+    width: 8%;
+    height: 17%;
+    position: relative;
+    background-attachment: fixed;
+    left:-7%;
+    top: 480px;
+}
+
+
+.home .universidad:hover
+{
+    transform: scale(1.1);
+}
+
+.home .semilleros
+{
+    margin: 0;
+    padding:0;
+    width: 8%;
+    height: 17%;
+    position: absolute;
+    left:1%;
+    top: 340px;
+}
+
+
+
+.home .informacion
+{
+    margin: 0;
+    padding:0;
+    width: 8%;
+    height: 18%;
+    position: absolute;
+    left:91%;
+    top: 180px;
+}
+
+.home .informacion:hover
+{
+    transform: scale(1.1);
+}
+
+.home h3{
+    margin: 0;
+    padding:0;
+    left:90%;
+    top: 300px;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(25, 53, 180);
+    position: absolute;
+}
+
+.home .acerca
+{
+    margin: 0;
+    padding:0;
+    width: 7%;
+    height: 15%;
+    position: absolute;
+    left:90%;
+    top: 350px;
+}
+
+.home .acerca:hover
+{
+    transform: scale(1.1);
+}
+
+.home h4{
+    margin: 0;
+    padding:0;
+    left:92%;
+    top: 460px;
+    text-align: center;
+    font-size: 15px;
+    color:rgb(244, 245, 250);
+    position: absolute;
+}
+
+.home button[type="submit5"]{
+    border-inline-start: khaki;
+    border:ivory;
+    height: 30px; 
+    width: 130px;
+    top: 2%;
+    left:44%;
+    position: absolute;
+    background:#e1eb60;
+    font-size: 18px;
+    border-radius: 5px;
+    color:rgb(82, 70, 248);
+}
+
+.home button[type="submit6"]{
+    border-inline-start: khaki;
+    border:ivory;
+    height: 30px; 
+    width: 130px;
+    top: 65%;
+    left:44%;
+    position: absolute;
+    background:#e1eb60;
+    font-size: 18px;
+    border-radius: 5px;
+    color:rgb(82, 70, 248);
+}
+.home button:hover{
+    transform: scale(1.1); 
+}
+

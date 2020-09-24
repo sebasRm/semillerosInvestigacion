@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background: url(/img/informacionDirectora.jpg) local;
+    background-size: cover;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.Directora .directora{
+   
+    width: 100%;
+    height: 195%;
+    position: absolute;
+
+}
+
+
+.Directora .home
+{
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    left:2%;
+    top: 7px;
+}
+
+.Directora .home:hover{
+    transform: scale(1.1);
+}
+
+
+.Directora .FotoDirectora{
+   
+    width: 15%;
+    height: 27%;
+    position: absolute;
+    left:45%;
+    top: 60px;
+
+}
+
+
+.Directora h1{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(5, 5, 5);
+    position: absolute;
+    top: 40%;
+    left:44%;  
+}
+
+.Directora h2{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 60px;
+    color:rgb(5, 5, 5);
+    position: absolute;
+    top: 55%;
+    left:30%;  
+}
+
+.Directora h2.formacion{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 70%;
+    left:41%;  
+}
+
+.Directora h2.formacionDos{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 74%;
+    left:38%;  
+}
+
+.Directora h2.formacionTres{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 78%;
+    left:22%;  
+}
+
+.Directora h2.experiencia{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 60px;
+    color:rgb(7, 7, 7);
+    position: absolute;
+    top: 98%;
+    left:32%;  
+}
+
+.Directora h2.experienciaUno{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 115%;
+    left:32%;  
+}
+
+.Directora h2.experienciaDos{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 120%;
+    left:34%;  
+}
+
+.Directora h2.experienciaTres{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 125%;
+    left:11%;  
+}
+
+.Directora h2.experienciaCuatro{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 137%;
+    left:36%;  
+}
+
+.Directora h2.experienciaCinco{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(63, 62, 62);
+    position: absolute;
+    top: 142%;
+    left:30%;  
+}
+
+.Directora .telefono{
+   
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    left:15%;
+    top: 1000px;
+
+}
+
+.Directora h1.contactos{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(8, 8, 8);
+    position: absolute;
+    top: 160%;
+    left:50%;  
+}
+.Directora h1.contactosUno{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(8, 8, 8);
+    position: absolute;
+    top: 167%;
+    left:42%;  
+}
+.Directora h1.contactosDos{
+    margin: 0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(8, 8, 8);
+    position: absolute;
+    top: 172%;
+    left:47%;  
+}

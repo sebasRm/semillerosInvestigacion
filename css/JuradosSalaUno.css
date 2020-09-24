@@ -1,0 +1,737 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+   
+    background-size: cover;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.Jurados .jurados{
+    width: 100%;
+    height: 130%;
+    
+
+}
+
+.Jurados .home
+{
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    left:2%;
+    top: 7px;
+}
+
+.Jurados .home:hover{
+    transform: scale(1.1);
+    
+}
+
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;  
+}
+
+.contenedor{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+.contenedor header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedor label{
+    position:absolute;
+    top: 175px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+#btn-modal{
+    display:none;
+    
+}
+
+#btn-modal:checked~.modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.lblModal{
+    background: rgb(114, 113, 113);
+    padding: 20px 45px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 30%;
+    position: absolute;   
+    
+    
+}
+
+.contenido .pefilAleja
+{
+    width: 37%;
+    height: 15%;
+    position: absolute;
+    left:29%;
+    top: 285px;
+}
+#btn-modal:checked~.mesasAleja{
+    z-index: 0;  
+}
+
+
+
+
+
+
+.proyectos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.proyectos{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.contenedorProyectosAleja{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorProyectosAleja header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+
+.contenedorProyectosAleja label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#proAleja{
+    display: none;
+}
+
+#proAleja:checked~.proyectos{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblproAleja{
+    background: rgb(114, 113, 113);
+    padding: 20px 28px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 44%;
+    position: absolute;
+    
+}
+
+
+#proAleja:checked~.lblModal{
+    z-index: 0;  
+}
+
+
+.contenidoProyectosAleja .proyectosAleja
+{
+    width: 43%;
+    height: 50%;
+    position: absolute;
+    left:29%;
+    top: 175px;
+}
+
+
+
+
+
+
+
+
+
+.mesas{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.mesas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorMesasAleja{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorMesasAleja header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorMesasAleja label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#mesasAleja{
+    display: none;
+}
+
+#mesasAleja:checked~.mesas{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblMesasAleja{
+    background: rgb(114, 113, 113);
+    padding: 20px 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 58%;
+    position: absolute;
+    
+}
+
+#mesasAleja:checked~.lblproAleja{
+    z-index: 0;  
+}
+
+.contenidoMesasAleja .mesasAsignadasAleja
+{
+    width: 40%;
+    height: 15%;
+    position: absolute;
+    left:29%;
+    top: 270px;
+}
+
+
+
+
+
+
+
+.modalGeovani{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modalGeovani{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorPerfilGeovani{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorPerfilGeovani header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorPerfilGeovani label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#perfilGeovani{
+    display: none;
+}
+
+#perfilGeovani:checked~.modalGeovani{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblPerfilGeovani{
+    background: rgb(80, 145, 243);
+    padding: 20px 45px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 75%;
+    position: absolute;
+    
+}
+
+.contenidoPerfilGeovani .pefilGeo
+{
+    width:42%;
+    height: 15%;
+    position: absolute;
+    left:29%;
+    top: 285px;
+}
+
+
+
+
+
+
+
+
+
+
+.proyectosGeovani{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.proyectosGeovani{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorProyectosGeovani{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorProyectosGeovani header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorProyectosGeovani label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#proGeovani{
+    display: none;
+}
+
+#proGeovani:checked~.proyectosGeovani{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblproGeovani{
+    background: rgb(80, 145, 243);
+    padding: 20px 28px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 89%;
+    position: absolute;
+    
+}
+.contenidoProyectosGeovani .proyectosGeo
+{
+    width: 43%;
+    height: 40%;
+    position: absolute;
+    left:29%;
+    top: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mesasGeovani{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.mesasGeovani{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorMesasGeovani{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorMesasGeovani header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorMesasGeovani label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#mesasAsignadasGeovani{
+    display: none;
+}
+
+#mesasAsignadasGeovani:checked~.mesasGeovani{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblMesasGeovani{
+    background: rgb(80, 145, 243);
+    padding: 20px 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 102%;
+    position: absolute;
+    
+}
+.contenidoMesasGeovani .mesasAsignadasGeovani
+{
+    width: 42%;
+    height: 23%;
+    position: absolute;
+    left:29%;
+    top: 265px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modalMagda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.modalMagda{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorPerfilMagda{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorPerfilMagda header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorPerfilMagda label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#perfilMagda{
+    display: none;
+}
+
+#perfilMagda:checked~.modalMagda{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblPerfilMagda{
+    background: rgb(137, 138, 137);
+    padding: 20px 45px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 120%;
+    position: absolute;
+    
+}
+.contenidoPerfilMagda .pefilMag
+{
+    width: 42%;
+    height: 15%;
+    position: absolute;
+    left:29%;
+    top: 285px;
+}
+
+
+
+
+
+
+.proyectosMagda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.proyectosMagda{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorProyectosMagda{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorProyectosMagda header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorProyectosMagda label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#proMagda{
+    display: none;
+}
+
+#proMagda:checked~.proyectosMagda{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblproMagda{
+    background: rgb(137, 138, 137);
+    padding: 20px 28px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 134%;
+    position: absolute;
+    
+}
+
+
+.contenidoProyectosMagda .proMag
+{
+    width: 43%;
+    height: 25%;
+    position: absolute;
+    left:29%;
+    top: 250px;
+}
+
+
+
+
+
+
+
+.mesasMagda{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.mesasMagda{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0,0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedorMesasMagda{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0, 0,0,0.6 );
+    transition: all 500ms ease;
+}
+
+.contenedorMesasMagda header{
+    padding: 10px;
+    background: royalblue;
+    color: #fff;
+}
+.contenedorMesasMagda label{
+    position:absolute;
+    top: 120px;
+    right: 390px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#mesasAsignadasMagda{
+    display: none;
+}
+
+#mesasAsignadasMagda:checked~.mesasMagda{
+    opacity: 1;
+    visibility: visible;
+}
+
+.lblMesasMagda{
+    background: rgb(137, 138, 137);
+    padding: 20px 40px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 63%;
+    top: 148%;
+    position: absolute;
+    
+}
+
+.contenidoMesasMagda .mesasAsignadasMagda
+{
+    width: 42%;
+    height: 17%;
+    position: absolute;
+    left:29%;
+    top: 265px;
+}
+
+

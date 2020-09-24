@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    
+    background-size: cover;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.VisualAPAP .visualAPAP{
+   
+    width: 100%;
+    height: 250%;
+    position: absolute;
+
+}
+
+.VisualAPAP .porterVisualAPAP{
+    top: 180px;
+    left: 90px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+
+
+.VisualAPAP .apapPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+
+}
+
+
+.CarnavalGo .carnavalGo{
+
+        width: 100%;
+        height: 250%;
+        position: absolute;
+
+}
+
+.CarnavalGo .porterCarnavalGo{
+    top: 180px;
+    left: 75px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+
+.CarnavalGo .carnavalGoPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+
+
+.CleverHouse .cleverHouse{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.CleverHouse .posterCelver{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.CleverHouse .cleverPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+.Advertising .advertising{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Advertising .posterAdvertising{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Advertising .AdvertisingPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+.Identificacion .identificacion{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Identificacion .posterIdentificacion{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Identificacion .IdentificacionPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+.Eduapp .eduapp{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Eduapp .posterEduapp{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Eduapp .EduappPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+.Plataforma .plataforma{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Plataforma .posterPlataforma{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Plataforma .PlataformaPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+.Diseño .diseño{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Diseño .posterDiseño{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Diseño .DiseñoPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+.Videojuego .videojuego{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Videojuego .posterVideojuego{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Videojuego .VideojuegoPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+.Gestion .gestion{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Gestion .posterGestion{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Gestion .GestionPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+
+.Estrategia .estrategia{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Estrategia .posterEstrategia{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Estrategia .EstrategiaPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+
+
+.Moviendo .moviendo{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Moviendo .posterMoviendo{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Moviendo .MoviendoPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+.Network .network{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Network .posterNetwork{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Network .NetworkPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+
+
+.Report .report{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Report .posterReport{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Report .ReportPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 250%;
+}
+
+
+
+
+
+.Projects .projects{
+    
+    width: 100%;
+    height: 400%;
+    position: absolute;
+}
+
+.Projects .posterProjects{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Projects .ProjectsPdf{
+    position: absolute;
+   width:99.7%;
+   height: 120vh;
+   top: 400%;
+}
+.Projects .avanceUno{
+    top: 1100px;
+    left: 70px;
+    width: 40%;
+    height: 62%;
+    position: absolute;
+}
+
+.Projects .avanceDos{
+    top: 1100px;
+    left: 730px;
+    width: 40%;
+    height: 62%;
+    position: absolute;
+}
+
+.Projects .avanceTres{
+    top: 1600px;
+    left: 130px;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+
+
+
+.Open .open{
+    
+    width: 100%;
+    height: 250%;
+    position: absolute;
+}
+
+.Open .posterOpen{
+    top: 160px;
+    left: 75px;
+    width: 90%;
+    height: 110%;
+    position: absolute;
+}
+.Open .OpenPdf{
+    position: absolute;
+   width:99.7%;
+   height: 200vh;
+   top: 250%;
+}
+

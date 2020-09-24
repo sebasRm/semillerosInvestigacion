@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 130%;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif ;
+    height: 100vh;
+    
+}
+
+.Recepcion .recepcion{
+   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+
+.Recepcion .escritorio
+{
+    width: 45%;
+    height: 30%;
+    position: absolute;
+    left:13%;
+    top: 49%;
+    z-index: 1;
+}
+
+.Recepcion .escritorio:hover{
+    transform: scale(1.1);
+}
+
+.Recepcion h1{
+    margin: 0;
+    padding:0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(67, 112, 236);
+    position: absolute;
+    top: 80%;
+    left:35%;  
+}
+
+.Recepcion h1.info{
+    margin: 0;
+    padding:0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(67, 112, 236);
+    position: absolute;
+    top: 90%;
+    left:10%;  
+}
+
+
+
+.Recepcion .IngresarSala
+{
+    margin: 0;
+    padding:0;
+    width: 13%;
+    height: 38%;
+    position: absolute;
+    left:54%;
+    top: 29%;
+    z-index: 1;
+}
+
+.Recepcion .IngresarSala:hover
+{
+    transform: scale(1.1);
+}
+
+.Recepcion .salir
+{
+    margin: 0;
+    padding:0;
+    width: 5%;
+    height: 10%;
+    position: absolute;
+    left:90.2%;
+    top: 88%;
+    z-index: 1;
+}
+
+.Recepcion .salir:hover
+{
+    transform: scale(1.1);
+}
+
+.Recepcion h1.salir{
+    margin: 0;
+    padding:0;
+    padding:0 0 50px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(201, 15, 15);
+    position: absolute;
+    top: 82%;
+    left:90%;  
+}
