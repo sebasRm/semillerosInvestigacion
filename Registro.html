@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Semilleros</title>
+    
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.19.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAy3ZfoXmtpwv5k48lwyEe4WkYyXWZaJEc",
+    authDomain: "semilleros-fde24.firebaseapp.com",
+    databaseURL: "https://semilleros-fde24.firebaseio.com",
+    projectId: "semilleros-fde24",
+    storageBucket: "semilleros-fde24.appspot.com",
+    messagingSenderId: "788270097885",
+    appId: "1:788270097885:web:415abf1a68e3a08b5b8234",
+    measurementId: "G-GPH75CYKEM"
+  };
+
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+</head>
+<body>
+
+  <div id="login" class="login">
+    <link rel="stylesheet" href="css/index.css">
+    <img  class="logo"src="img/icnio.jpg" alt="logo semilleros elite">
+    <h1>Registrate para ingresar al Evento</h1>
+    <input id="email" type="email" placeholder="Ingresa tu email">
+    <input id="contraseña" type="password" placeholder="Ingresa tu contraseña">
+    <button id="idboton" type="submit" onclick="registrar()">Registrar</button>
+ 
+  </div>  
+
+  
+<script src="registro.js"></script>
+</body>
+
+</html>
